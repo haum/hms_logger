@@ -32,5 +32,5 @@ setup(
         'Programming Language :: Python :: 3.5',
     ],
 
-    install_requires=['pika', 'hms_base>=1.1,<2', 'coloredlogs', 'pymongo']
+    install_requires=['pika', 'hms_base>=2.0,<3', 'coloredlogs', 'pymongo']
 )
