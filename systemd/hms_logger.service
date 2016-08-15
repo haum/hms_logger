@@ -1,0 +1,14 @@
+[Unit]
+Description=HAUM's logger microservice
+After=mutli-user.target
+Requires=multi-user.target
+
+[Service]
+Type=simple
+User=hms_ping
+ExecStart=/home/hms_logger/hms_logger/systemd/run.sh
+Restart=on-failure
+RestartSec=60
+
+[Install]
+WantedBy=multi-user.target
