@@ -23,6 +23,7 @@ def main():
     def callback(client, topic, message):
         log_entry = {
             'date': datetime.utcnow(),
+            'topic': topic,
             'message': message
         }
 
