@@ -22,3 +22,9 @@ Create a Python 3 virtualenv and install software::
 Then start the bot inside the virtual env::
 
     (venv) $ hms_logger
+
+License
+-------
+
+This project is brought to you under MIT license. For further information,
+please read the provided ``LICENSE.txt`` file.
