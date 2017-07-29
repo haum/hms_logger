@@ -8,6 +8,7 @@ This project adheres to `Semantic Versioning <http://semver.org/>`__.
 ------------
 
 - Added systemd service
+- Added makefile for systemd installation
 
 [1.0] - 2016-08-15
 ------------------
