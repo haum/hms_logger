@@ -22,7 +22,6 @@ setup(
         'write_to_template': setuptools_scm_template,
     },
     packages=['hms_logger'],
-    scripts=['bin/hms_logger'],
 
     url='https://github.com/haum/hms_logger',
     license='MIT',
