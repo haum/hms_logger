@@ -18,7 +18,7 @@ version = '{version}'
 setup(
     name='hms_logger',
     use_scm_version={
-        'write_to': 'hms_irc/version.py',
+        'write_to': 'hms_logger/version.py',
         'write_to_template': setuptools_scm_template,
     },
     packages=['hms_logger'],
