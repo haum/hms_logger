@@ -7,6 +7,9 @@ This project adheres to `Semantic Versioning <http://semver.org/>`__.
 [Unreleased]
 ------------
 
+[1.1] - 2017-07-29
+------------------
+
 - Added systemd service
 - Added makefile for systemd installation
 - Use scm version and entrypoints for setup.py
